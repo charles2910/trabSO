@@ -21,9 +21,9 @@ int main () {
 		pn = pn1;
 
 		i++;
-		printf("pi it. %d: %Lf\n", i, pn1);
+		//printf("pi it. %d: %Lf\n", i, pn1);
 	}
-	//printf("an: %Lf\nbn:%Lf\ntn:%Lf\npn:%Lf\n", an, bn, tn, pn);
+	printf("Iterações: %d\nan: %Lf\nbn:%Lf\npn:%Lf\n",i, an, bn, pn);
 	return 0;
 	
 }
